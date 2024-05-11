@@ -18,7 +18,7 @@ const Navbar = ({ selectedPage, setSelectedPage}: Props) => {
       >
         <div className={`${flexBetween} mx-auto w-5/6 `}>
           <div className={`${flexBetween} w-full gap-16`}>
-            <img src={Logo} alt="logo" />
+            <img  src={Logo} alt="logo" />
             {/* Right side of nav */}
             <div className={`${flexBetween} w-full `}>
               <div className={`${flexBetween} gap-8 text-sm `}>
